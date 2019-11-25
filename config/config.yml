@@ -1,0 +1,10 @@
+connect:
+  PathText: "/home/ml/Documents/BI_Help/data/raw/Fusion_Procurement_BI/"
+  PathCodeCorrige: '/home/ml/Documents/BI_Help/data/processed/codes_corrige.pkl'
+  path_file_fr_cleaned: '/home/ml/Documents/BI_Help/data/processed/codes_labels_fr_cleaned.pkl'
+  PathJson: "/home/ml/Documents/BI_Help/data/processed/outputfile.json"
+StopWord : [et, de, sur, du, au, des, le, la, les, pour, en, avec, un, une, ma, ton, mon, or, for, to, and, in, a, avoir, avant]
+name_columns_xls: ['MATKL Material Group', 'Short', 'Long']
+name_columns_text: ['TXZ01 Short Text', 'MATKL Material Group']
+rename_columns_xls : {'MATKL Material Group' : "MATKLMaterialGroup"}
+rename_columns_text : {'TXZ01 Short Text': 'TXZ01ShortText', 'MATK+L Material Group' : "MATKLMaterialGroupCorrige"}
